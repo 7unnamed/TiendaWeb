@@ -81,7 +81,7 @@ export const Footer = () => {
                         <ul className="space-y-3">
                             {[
                                 { icon: <MapPin size={18} />, text: 'Lima, Perú' },
-                                { icon: <Phone size={18} />, text: '+51 123 456 789' },
+                                { icon: <Phone size={18} />, text: '+51 997 550 552' },
                                 { icon: <Mail size={18} />, text: 'info@munaypaqocha.pe' }
                             ].map((item, index) => (
                                 <li key={index} className="flex items-center gap-2 text-[#E5DED3]">
