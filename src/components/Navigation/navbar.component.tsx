@@ -57,7 +57,7 @@ export const AppNavbar: React.FC<NavbarProps> = () => {
                     <nav className="flex items-center gap-6">
                         {[
                             { name: "Inicio", path: "/" },
-                            { name: "Productos", path: "/productos" },
+                            { name: "Productos", path: "/producto" },
                             { name: "Nosotros", path: "/nosotros" },
                         ].map(({ name, path }) => (
                             <NavbarItem key={path} className="relative list-none">

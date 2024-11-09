@@ -15,6 +15,12 @@ function App() {
         </MainLayout>
       } />
 
+      <Route path="/producto" element={
+        <MainLayout>
+          <ProductsPage/>
+        </MainLayout>
+      } />
+
       <Route path="/producto/:id" element={
         <MainLayout>
           <ProductDetail />
@@ -24,12 +30,6 @@ function App() {
       <Route path="/nosotros" element={
         <MainLayout>
           <AboutUs/>
-        </MainLayout>
-      } />
-
-      <Route path="/productos" element={
-        <MainLayout>
-          <ProductsPage/>
         </MainLayout>
       } />
 
