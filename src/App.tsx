@@ -3,6 +3,7 @@ import { MainLayout } from './layouts/mainLayout';
 import Home from '../src/components/Home/home.component';
 import ProductDetail from './components/Producto/productDetallecomponent'
 import AboutUs from './components/Nosotros/nosotrosComponent';
+import ProductsPage from './components/Producto/productPage.component';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
 
       <Route path="/productos" element={
         <MainLayout>
-          <h3>Aun en desarrollo, vuelve pronto 😎👌</h3>
+          <ProductsPage/>
         </MainLayout>
       } />
 
