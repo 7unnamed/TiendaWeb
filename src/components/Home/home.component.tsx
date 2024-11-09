@@ -81,7 +81,7 @@ const HomePage = () => {
 
     const handleViewAll = () => {
         setShowingAll(!showingAll);
-        setDisplayCount(showingAll ? 4 : products.length);
+        setDisplayCount(showingAll ? 4 : 8);
     };
 
     return (

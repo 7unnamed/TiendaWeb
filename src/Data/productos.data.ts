@@ -81,14 +81,14 @@ export const products: IProduct[] = [
             material: "Lana de alpaca sostenible",
             cara: "Tela limpiable"
         },
-        isNew: true,
+        isNew: false,
         available: true,
         createdAt: new Date(),
         updatedAt: new Date()
     },
     {
         id: "3",
-        name: "Llama Love - Figura de Alpaca de Baby Alpaca",
+        name: "LLAMA LOVE - FIGURA DE ALPACA DE BABY ALPACA",
         shortDescription: "Figura única hecha a mano con baby alpaca peruana",
         fullDescription: "Cada Llama Love es hecha a mano y completamente única, fabricada con 100% piel de baby alpaca peruana.",
         images: img3,
@@ -155,7 +155,7 @@ export const products: IProduct[] = [
             country: "Perú",
             handmade: true
         },
-        isNew: true,
+        isNew: false,
         available: true,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -234,7 +234,7 @@ export const products: IProduct[] = [
             teñido: "Artesanal con tintes especiales",
             mantenimiento: "Especial para preservar color"
         },
-        isNew: true,
+        isNew: false,
         available: true,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -329,7 +329,7 @@ export const products: IProduct[] = [
             precauciones: "Algunos tintes pueden desprenderse",
             acabado: "Artesanal de alta calidad"
         },
-        isNew: true,
+        isNew: false,
         available: true,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -428,7 +428,7 @@ export const products: IProduct[] = [
             detalles: "Opcional borla decorativa",
             calidad: "Premium"
         },
-        isNew: true,
+        isNew: false,
         available: true,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -541,7 +541,7 @@ export const products: IProduct[] = [
             detalles: "Expresiones y colores naturales",
             durabilidad: "Alta resistencia y calidad"
         },
-        isNew: true,
+        isNew: false,
         available: true,
         createdAt: new Date(),
         updatedAt: new Date()
