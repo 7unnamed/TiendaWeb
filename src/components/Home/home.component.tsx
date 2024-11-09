@@ -85,7 +85,7 @@ const HomePage = () => {
     };
 
     return (
-        <div className="space-y-12 bg-[#F5F0E9]"> {/* Fondo general beige claro */}
+        <div className="space-y-12 bg-[#fff9f0]"> {/* Fondo general beige claro */}
             {/* Hero Section with Slider */}
             <section className="relative h-[500px] overflow-hidden rounded-2xl">
                 <AnimatePresence initial={false} custom={direction}>
